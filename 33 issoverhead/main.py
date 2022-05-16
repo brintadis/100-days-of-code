@@ -5,8 +5,8 @@ from datetime import datetime
 
 MY_LAT = 43.602810  # Your latitude
 MY_LONG = 39.734154  # Your longitude
-MY_EMAIL = "makar.oblomov@gmail.com"  # Your email
-MY_PASSWORD = """baX59D'Y"D-wsZF8"""  # Your password
+MY_EMAIL = ""  # Your email
+MY_PASSWORD = """"""  # Your password
 
 
 def iss_is_overhead():

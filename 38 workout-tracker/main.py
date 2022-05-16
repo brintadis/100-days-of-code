@@ -6,8 +6,8 @@ AGE = 21
 WEIGHT_KG = 81
 HEIGHT_CM = 197
 
-APP_ID = "06d848be"
-API_KEY = "0aeac70df882a2d892acb02ea816e97b"
+APP_ID = "YOUR ID"
+API_KEY = "YOUR API KEY"
 
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 sheet_endpoint = "https://api.sheety.co/3f3d332111d28e777785ab213fe05f87/workoutTracking/workouts"
@@ -36,7 +36,7 @@ print(result)
 today = datetime.now()
 
 auth_header = {
-        "Authorization": "Bearer 8-Q`Y[h7)(k9e5epw@k7Lr./ht#dUr"
+        "Authorization": "Bearer YOUR TOKEN"
     }
 
 for exercise in result["exercises"]:
