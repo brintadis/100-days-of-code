@@ -40,5 +40,3 @@ for index in range(len(property_links)):
     price.send_keys(property_prices[index])
     link.send_keys(property_links[index])
     button.click()
-
-
